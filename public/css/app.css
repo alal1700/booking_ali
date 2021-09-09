@@ -1,0 +1,60 @@
+.welcome{
+    font-size: 35px;
+}
+
+.btn-next{
+    background-color: #009fe3;
+    color: #fff;
+}
+
+
+.customer_second, 
+.customer_third,
+.customer_info{
+    display: none;
+}
+
+.date_pick .col-md-4{
+    margin-top: 20px;
+}
+
+.time_btn{
+    width: 80%;
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 1px 2px 3px 2px #d6cece;   
+    cursor: pointer;
+    margin: auto;
+}
+
+.time_btn:hover{
+    box-shadow: 3px 4px 4px 4px #d6cece;
+}
+
+.customer_third .active{
+    background-color: #009fe3;
+    color: #ffffff;
+}
+
+.date_pick .disabled{
+    cursor: unset;
+}
+
+.customer_info{
+    text-align: left;
+}
+
+.appoint_timeError{
+    font-weight: bold;
+}
+
+.navbar-brand{
+    padding: 1rem !important;
+}
+
+.summary{
+    display: none;
+    background: antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+}
